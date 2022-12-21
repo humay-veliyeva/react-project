@@ -1,0 +1,59 @@
+.sidebar-container {
+  width: 300px;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  top: 0px;
+  right: -500px;
+  z-index: 5;
+  transition: all 0.5s ease-in;
+}
+
+.sidebar-container-active {
+  right: 0;
+}
+
+.middle-part {
+  margin-left: 30px;
+}
+
+.middle-part ul li {
+  margin: 15px 0;
+}
+
+.middle-part ul li a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 135%;
+  color: #4b4844;
+}
+
+.parts-container {
+  position: relative;
+  margin-top: 28px;
+}
+
+.middle-ground svg {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  width: 20px;
+}
+
+.menu-head {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 185.5%;
+  color: #ff9619;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {
+  .sidebar-container {
+    display: block;
+  }
+}

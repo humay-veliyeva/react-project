@@ -1,0 +1,141 @@
+.write-us-container {
+  width: 100%;
+  height: 479px;
+  background: #a9c2be;
+  margin-top: 160px;
+}
+
+.write-container-2 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 479px;
+  display: flex;
+  position: relative;
+}
+
+img.write-us {
+  width: 670px;
+  height: 479px;
+}
+
+p.write-us-o {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 160px;
+  line-height: 110%;
+  position: absolute;
+  top: -9px;
+  left: 522px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  color: #ff9619;
+}
+
+form.write-form {
+  width: 470px;
+  height: 417px;
+  background: #ffffff;
+  position: absolute;
+  top: 31px;
+  left: 600px;
+  z-index: 1;
+  padding: 25px 50px;
+}
+
+.form-p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ff9619;
+}
+
+.form-h {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #343434;
+  margin-top: 15px;
+}
+
+.input-sections input {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 10px;
+  margin: 15px 0;
+  width: 370px;
+  outline: none;
+}
+
+label {
+  position: relative;
+}
+
+input:focus ~ span.input-span {
+  display: none;
+}
+
+.input-span {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #343434;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+  form.write-form {
+    text-align: center;
+    left: 5%;
+    width: 90%;
+  }
+
+  .filter-container {
+    flex-wrap: wrap;
+  }
+
+  img.write-us {
+    display: none;
+  }
+
+  .parts {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  p.write-us-o {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img.write-us {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .input-sections input {
+    width: auto;
+  }
+
+  form.write-form {
+    padding: 25px 40px;
+  }
+}

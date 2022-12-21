@@ -1,0 +1,30 @@
+img.cat-img{
+    height: 144px;
+    object-fit: cover;
+    width: 170px;
+}
+
+
+.category-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cat-detail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 63px;
+}
+
+.cat-detail a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #343434;
+
+}
